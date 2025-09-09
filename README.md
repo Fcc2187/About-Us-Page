@@ -1,8 +1,9 @@
 # 🏥 Site Institucional - USF + ACS Maria Rita (Equipe 2)
 
-![Logo da Prefeitura do Recife](https://i.imgur.com/K3eB37T.png)
+<img width="225" height="225" alt="favicon" src="https://github.com/user-attachments/assets/c6d30f17-ed3f-45c1-b281-95f2104f94b7" />
 
 ## 📄 Sobre o Projeto
+
 
 Este é o site institucional desenvolvido para a **Unidade de Saúde da Família (USF) + Agentes Comunitários de Saúde (ACS) Maria Rita, Equipe 2**, localizada em Recife-PE.
 
