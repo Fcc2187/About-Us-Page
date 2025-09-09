@@ -62,8 +62,7 @@ Após rodar o último comando, o site abrirá automaticamente no seu navegador e
 
 O deploy deste projeto é feito de forma contínua e automatizada através da **Vercel**. Qualquer `push` para a branch `main` no GitHub irá acionar um novo build e atualizar o site no ar.
 
-🔗 **Acesse a versão ao vivo em:** [https://about-us-page-nu.vercel.app/](https://about-us-page-nu.vercel.app/)
-*(Lembre-se de substituir pelo link final do seu projeto na Vercel!)*
+🔗 **Acesse a versão ao vivo em:** [](https://usf-acs-maria-rita.vercel.app/)
 
 ---
 
