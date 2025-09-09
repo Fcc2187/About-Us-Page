@@ -40,7 +40,7 @@ const HomePage = () => {
                 <div className="agendar-card">
                     <h3>Presencialmente</h3>
                     <p>
-                        Você pode se dirigir à recepção da unidade para entrar na lista de espera.
+                        Você pode se dirigir à recepção da unidade para marcar consulta ou entrar na lista de espera.
                     </p>
                     <p className="horario-destaque">07:00 - 19:00</p>
                 </div>
