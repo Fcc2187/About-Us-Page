@@ -1,0 +1,150 @@
+.header {
+  background-color: #0052a3;
+  padding: 1rem 0;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  color: #FFFFFF;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+.header-container {
+  max-width: 1100px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 1.5rem;
+}
+
+.logo-link {
+  text-decoration: none;
+  color: #FFFFFF;
+}
+
+.logo-text {
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin: 0;
+  color: #FFFFFF;
+  line-height: 1.2;
+}
+.logo-text span {
+  font-size: 1rem;
+  font-weight: 400;
+  display: block;
+}
+
+.nav-links {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  gap: 2rem;
+  align-items: center;
+}
+
+.nav-link {
+  color: #FFFFFF;
+  text-decoration: none;
+  font-size: 1.1rem;
+  font-weight: 500;
+  transition: color 0.3s ease;
+  padding-bottom: 5px;
+  border-bottom: 2px solid transparent;
+}
+
+.nav-link:hover {
+  color: #d4eaff;
+}
+
+.nav-link.active {
+  color: #FFFFFF;
+  border-bottom: 2px solid #FFFFFF;
+}
+
+/* Esconde o menu hambúrguer em telas grandes */
+.menu-hamburger {
+  display: none;
+  cursor: pointer;
+}
+
+
+/* ========================================= */
+/* ESTILOS PARA MOBILE (RESPONSIVIDADE)      */
+/* ========================================= */
+
+@media (max-width: 768px) {
+  .logo-text {
+    font-size: 1.3rem;
+  }
+  .logo-text span {
+    font-size: 0.9rem;
+  }
+
+  /* Mostra o ícone do menu hambúrguer */
+  .menu-hamburger {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    margin-left: auto;
+  }
+  .barra {
+    width: 28px;
+    height: 3px;
+    background-color: #FFFFFF;
+    border-radius: 2px;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  /* Animação do X no menu ativo */
+  .barra-1-ativa {
+    transform: rotate(45deg) translate(5px, 6px);
+  }
+  .barra-2-ativa {
+    opacity: 0;
+  }
+  .barra-3-ativa {
+    transform: rotate(-45deg) translate(5px, -6px);
+  }
+
+  /* Esconde a navegação desktop e prepara a mobile */
+  .nav-links {
+    position: absolute;
+    top: 70px; /* Altura do header */
+    left: 0;
+    right: 0;
+    background-color: #004a94; /* Um pouco mais escuro para diferenciar */
+    flex-direction: column;
+    width: 100%;
+    
+    /* Animação para o menu aparecer */
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.4s ease-in-out;
+  }
+
+  /* Estilo do menu quando estiver ativo */
+  .nav-links-ativo {
+    max-height: 300px; /* Altura suficiente para os links */
+    padding: 1rem 0;
+  }
+  
+  .nav-links li {
+    width: 100%;
+    text-align: center;
+    padding: 0.5rem 0;
+  }
+
+  .nav-link {
+    display: block;
+    padding: 1rem;
+    width: 100%;
+    border-bottom: none;
+  }
+
+  .nav-link.active {
+    border-bottom: none;
+    background-color: rgba(255, 255, 255, 0.1);
+  }
+}

@@ -1,0 +1,18 @@
+.botao-agendar {
+  background-color: #007bff;
+  color: #FFFFFF;
+  border: none;
+  padding: 15px 30px;
+  font-size: 1.1rem;
+  font-weight: 700;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  text-transform: uppercase;
+}
+
+.botao-agendar:hover {
+  background-color: #0056b3;
+  transform: translateY(-2px);
+}
