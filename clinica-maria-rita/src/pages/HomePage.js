@@ -9,7 +9,7 @@ const HomePage = () => {
         <div className="hero-content">
           <h1>Cuidando da sua saúde, perto de você.</h1>
           <p>
-            Bem-vindo à USF + ACS Maria Rita. Nossa missão é oferecer um atendimento de saúde primária
+            Bem-vindo à USF + ACS Maria Rita. Somos a Equipe 2 e nossa missão é oferecer um atendimento de saúde primária
             humanizado e de qualidade para toda a comunidade, com foco na prevenção e no bem-estar.
           </p>
           <BotaoAgendar />
@@ -21,12 +21,12 @@ const HomePage = () => {
           <h2>Nossos Horários</h2>
           <div className="info-grid">
             <div className="info-card">
-              <h3>Atendimento Geral</h3>
+              <h3>Atendimento Equipe 2</h3>
               <p>Segunda a Sexta</p>
-              <p className="horario-destaque">07:00 - 19:00</p>
+              <p className="horario-destaque">07:00 - 13:00</p>
             </div>
             <div className="info-card">
-              <h3>Acolhimento</h3>
+              <h3>Acolhimento Equipe 2</h3>
               <p>Segunda a Sexta</p>
               <p className="horario-destaque">07:00 - 10:00</p>
               <span>(Atendimento de demandas espontâneas)</span>
@@ -42,7 +42,7 @@ const HomePage = () => {
                     <p>
                         Você pode se dirigir à recepção da unidade para entrar na lista de espera.
                     </p>
-                    <p className="horario-destaque">07:00 - 10:00</p>
+                    <p className="horario-destaque">07:00 - 19:00</p>
                 </div>
                 <div className="agendar-card">
                     <h3>Online</h3>
