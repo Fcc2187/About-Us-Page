@@ -1,6 +1,8 @@
 # 🏥 Site Institucional - USF + ACS Maria Rita (Equipe 2)
 
-<img width="225" height="225" alt="favicon" src="https://github.com/user-attachments/assets/c6d30f17-ed3f-45c1-b281-95f2104f94b7" />
+<div align="center">
+  <img width="225" height="225" alt="Favicon com a logo da Prefeitura do Recife" src="https://github.com/user-attachments/assets/c6d30f17-ed3f-45c1-b281-95f2104f94b7" />
+</div>
 
 ## 📄 Sobre o Projeto
 
